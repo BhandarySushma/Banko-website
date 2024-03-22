@@ -1,0 +1,239 @@
+@font-face {
+    font-family: bogart;
+    src: url(./assets/fonts/Bogart-Semibold-trial.ttf);
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(./assets/fonts/Nexa-Heavy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nexa;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+button {
+    outline: none;
+    border: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px;
+
+}
+
+.logo a h3 {
+    color: #0b0a0a;
+    font-family: bogart;
+
+}
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+li a {
+    list-style: none;
+    color: #0b0a0a;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.btn button {
+    border: 1px solid #222222;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.signup button {
+    background-color: #222222;
+    color: #fafafa;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.left {
+    display: inline;
+    margin: 40px 0;
+    margin-bottom: 50px;
+}
+
+.b-right img {
+    width: 30rem;
+    position: relative;
+}
+
+.capsule {
+    display: inline;
+}
+
+.capsule .app {
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid #5b5b5b;
+    color: #212121;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+.manage {
+    margin-top: 20px;
+    width: 70%;
+}
+
+
+
+.manage h1 {
+    font-size: 60px;
+    font-family: bogart;
+    line-height: 1.2;
+    text-wrap: wrap;
+
+}
+
+.manage h1 span {
+    font-family: nexa;
+}
+
+.manage p {
+
+    font-weight: 200;
+    margin: 10px 0;
+
+}
+
+.bigbtn {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    position: absolute;
+    padding-left: 20px;
+    color: #222222;
+}
+
+.bigbtn input {
+    background-color: #fafafa;
+    border: 2px solid #222222;
+    padding: 10px 0;
+    border-radius: 20px;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.submit a {
+    color: #fafafa;
+}
+
+.submit {
+    position: absolute;
+    margin-left: 320px;
+    background-color: #121212;
+    color: #fafafa;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.global {
+    margin: 50px 0;
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.process {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.process-title {
+    margin-bottom: 20px;
+}
+
+.process-title h3{
+    font-family: bogart;
+    font-size: 30px;
+}
+
+.process-title p::before{
+    content:url(./assets/line-horizontal.svg);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.step h4 {
+    margin-top: 30px;
+}
+
+.step h3 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0b0a0a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0b0a0a;
+    color: red;
+}
+
+.step p {
+    font-size: small;
+    color: #5b5b5b;
+}
+
+.num-one{
+    display: flex;
+    background-color: red;
+}
+
+.one{
+    background-color: yellow;
+}
+
